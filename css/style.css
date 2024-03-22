@@ -1,0 +1,307 @@
+/* Google fonts */
+@font-face {
+    font-family: IBM_Plex_Sans;
+    src: url(../assets/IBM_Plex_Sans/IBMPlexSans-Medium.ttf);
+}
+@font-face {
+    font-family: Mitr;
+    src: url(../assets/Mitr/Mitr-Regular.ttf);
+}
+@font-face {
+    font-family: Righteous;
+    src: url(../assets/Righteous-Regular.ttf)
+}
+/* Selectors */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nav-one{
+    background-color: rgba(13, 12, 12, 0.742);
+    height: 40px;
+    width: 100%;
+    display: inline-flex;
+    color: white;
+    border-bottom: 1px dashed white;
+}
+.nav-span{
+    font-family: Mitr;
+    font-size: 11px;
+}
+.nav-span:hover{
+    color: rgb(235, 200, 111) !important;
+}
+.contact{
+    position: relative;
+    top: 10px;
+    left: 190px;
+    gap: 25px;
+}
+.nav-one .con-link{
+    position: absolute;
+    right: 95px;
+    top: 10px;
+    height: 25px;
+    width: 10%;
+}
+.nav-one .con-link .icon{
+    height: 25px;
+    width: 25px;
+    border: 1px solid white;
+    border-radius: 45%;
+    padding: 4px;
+}
+.icon:hover{
+    background-color: rgb(235, 200, 111) !important;
+}
+a{
+    margin: 5px;
+}
+.nav-link:hover{
+    color: rgb(235, 200, 111) !important;
+}
+.navbar-nav{
+    margin-left: 10%;
+}
+.navbar{
+    position: sticky !important;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.gif-img{
+    background: url(../assets/kabaabjess-home-back.gif) no-repeat;
+    background-size: 100% 100%;
+    height: 525px;
+    width: 100%;
+    filter: brightness(60%);
+}
+.main{
+    height: 500px;
+    width: 100%;
+}
+.about-img{
+    margin: 55px 5px 10px 35px;
+}
+.about-text{
+    margin: 95px 5px 10px 65px;
+}
+.OS-main{
+    height: 500px;
+    width: 100%;
+    background: url(https://d4t7t8y8xqo0t.cloudfront.net/resized/750X436/restaurant%2F645160%2Frestaurant320201013051639.jpg) no-repeat;
+    background-size: 100% 100%;
+    filter: brightness(85%);
+}
+.b-center-1{
+    padding: 25px 0px 10px 0px;
+    text-align: center;
+    font-size: 35px;
+}
+.b-center{
+    text-align: center;
+    font-style: italic;
+}
+.btn{
+    background-color: rgb(235, 200, 111) !important;
+    margin-left: 55px;
+}
+.card-img-top:hover{
+    opacity: 0.8;
+}
+.call{
+    height: 200px;
+    width: 100%;
+}
+.color-no{
+    color: rgb(235, 200, 111);
+}
+.color-no:hover{
+    text-decoration: underline;
+}
+.btn-center{
+    margin: 0;
+    border-radius: 0%;
+}
+.B-main{
+    margin-top: 25;
+    height: 500px;
+    width: 100%;
+    background: url(https://everythingpakistan.pk/wp-content/uploads/2022/09/181_Kababjees1.jpg) no-repeat;
+    background-size: 100% 100%;
+    filter: brightness(75%)
+}
+.b-center-2{
+    padding: 52px 0px 10px 0px;
+    text-align: center;
+    font-size: 35px;
+}
+.gallery{
+    height: 350px;
+    width: 100%;
+}
+.g-cards{
+    margin-top: 5px;
+}
+/* Review */
+.R-main{
+    margin-top: 25;
+    height: 400px;
+    width: 100%;
+    background: url(https://lh3.googleusercontent.com/YkjJ-WnvOzln5W3ymTz1HDIw2OM5yZd9rOTMM4Gtsxoq5JhX_qKoNmvM5JZ4MFAjx7ObXzLV9Rd8RATpWO7w2qmk0JX_OhBfiVUoCIMSd2X_z73ZbecNn_jGp1A3_QBnYIgfGsuiiS2CNvOEKDVbTsg) no-repeat;
+    background-size: 100% 100%;
+    filter: brightness(70%)
+}
+.RV-logo{
+    padding-top: 45px;
+}
+.R-main img{
+    height: 100px;
+    width: 200px;
+}
+.b-center-3{
+    padding: 40px 0px 10px 0px;
+    text-align: center;
+    font-size: 35px;
+}
+.head3{
+    color: rgb(255, 217, 120);
+    font-size: 35px;
+}
+.pera{
+    font-weight: bolder;
+}
+.content{
+    padding: 25px 250px;
+    font-weight: bolder;
+}
+.l-main{
+    height: 400px;
+    width: 100%;
+}
+.b-center-4{
+    padding: 35px 0px 10px 0px;
+    text-align: center;
+    font-size: 35px;
+}
+.l-icons{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+.icon-head{
+    margin: auto;
+}
+.icon-head h6{
+    margin-top: 10px;
+}
+.l-cards{
+    padding: 35px 0px 10px 0px;
+}
+/* Footer */
+.footer-bg{
+    margin-top: 25;
+    height: 400px;
+    width: 100%;
+    background: url(https://www.pakistanihealthyrecipes.com/wp-content/uploads/2021/12/kababjees-highway-dinosaur.jpg) no-repeat;
+    background-size: 100% 100%;
+    filter: brightness(80%)
+}
+.foot-container{
+    padding: 70px 100px;
+    gap: 5px;
+}
+.footer-hw{
+    height: 300px;
+    width: 300px;
+}
+.foot-icon{
+    height: 30px;
+    width: 30px;
+}
+.foot-icon:hover{
+    height: 32px;
+    width: 32px;
+    background-color: rgb(255, 217, 120);
+}
+.foot-link{
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+}
+.foot-link:hover{
+    color: rgb(255, 217, 120);
+}
+.foot-icons{
+    height: 25px;
+    width: 25px;
+}
+.btn2{
+    margin: 0;
+}
+.Location-heads{
+    color: rgb(255, 217, 120);
+}
+.mess-icon{
+    position: fixed;
+    right: 35px;
+    bottom: 15px;
+}
+
+/* Media qurey phone */
+@media (max-width: 575.98px) {
+    .nav-one {
+        height: auto;
+        display: block;
+        background-color: rgba(13, 12, 12, 0.742);
+        color: white;
+        border-bottom: 1px dashed white;
+    }
+    .nav-one .contact,
+    .nav-one .con-link {
+        display: block;
+        text-align: center;
+        margin: 5px auto;
+    }
+    .gif-img {
+        height: 300px;
+    }
+    .main {
+        flex-direction: column;
+        height: auto;
+    }
+    .about-img {
+        margin: 20px auto;
+    }
+    .about-text {
+        margin: 20px auto;
+    }
+    .OS-main,
+    .B-main,
+    .R-main,
+    .gallery,
+    .l-main,
+    .footer-bg {
+        height: auto;
+    }
+    .footer-bg {
+        padding: 50px;
+    }
+}
+
+/* Media qurey tablets */
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .gif-img {
+        height: 400px;
+    }
+    .navbar-nav {
+        margin-left: 5%;
+    }
+}
+
+/* Media qurey desktops */
+@media (min-width: 992px) {
+    .navbar-nav {
+        margin-left: 10%;
+    }
+}
